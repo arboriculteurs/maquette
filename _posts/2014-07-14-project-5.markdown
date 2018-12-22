@@ -4,8 +4,8 @@ subtitle: Mise en place et premières plantations
 layout: default
 modal-id: 5
 date: 2014-07-14
-img: startup-framework.png
-thumbnail: startup-framework-thumbnail.png
+img: verger_ecole.jpg
+thumbnail:  verger_ecole-thumbnail.jpg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

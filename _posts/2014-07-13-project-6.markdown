@@ -4,8 +4,8 @@ subtitle: Un stage un peu alambiqué...
 layout: default
 modal-id: 6
 date: 2014-07-15
-img: roundicons.png
-thumbnail: roundicons-thumbnail.png
+img: distillation.jpg
+thumbnail: distillation-thumbnail.jpg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
