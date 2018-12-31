@@ -33,5 +33,8 @@ $('div.modal').on('show.bs.modal', function() {
 		if (!location.hash){
 			$(modal).modal('hide');
 		}
-	}
+    }
+
+    
+
 });

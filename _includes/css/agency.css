@@ -336,12 +336,19 @@ section {
 
 section h2.section-heading {
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 0;
     font-size: 40px;
+}
+
+section h3 {
+    margin-top: 100px;
+    margin-bottom: 0;
+    font-size: 32px;
 }
 
 section h3.section-subheading {
     margin-bottom: 75px;
+    margin-top: 14px;
     text-transform: none;
     font-family: {{ site.data.template.font.primary }};
     font-size: 16px;
@@ -882,3 +889,33 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
+
+
+.stat {
+    margin:150px auto;
+    text-align:center;
+ }
+ .highlight {
+    color:#111;
+    padding:20px 0;
+    font-weight:bold;
+    display:block;
+    overflow:hidden;
+    margin-bottom:0;
+    font-size:48px;
+ }
+ .stat i {
+     color:#f7c221;
+ }
+ .milestone-details {
+    font-weight:bold;
+    font-size:18px;
+    color:#999;
+ }
+.top5 { margin-top:5px; }
+.top7 { margin-top:7px; }
+.top10 { margin-top:10px; }
+.top15 { margin-top:15px; }
+.top17 { margin-top:17px; }
+.top30 { margin-top:30px; } 
+
