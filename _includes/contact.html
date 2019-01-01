@@ -9,6 +9,11 @@
             <div class="row">
                 <div class="col-lg-12">
                     <form name="sentMessage" id="contactForm"  method="POST" action="https://formspree.io/webmestre@arboriculteurs-lichtenberg.eu" novalidate>
+                        <input type="hidden" name="_subject" value="Contact AALE" />
+                        <input type="hidden" name="_language" value="fr" />
+                        <input type="hidden" name="_next" value="{{site.url}}/#contact"/>
+                        
+                        <!-- <input type="hidden" name="_cc" value="contact@arboriculteurs-lichtenberg.eu" /> -->
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="control-group form-group">
@@ -16,7 +21,7 @@
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="control-group form-group">
-                                    <input type="email" class="form-control" placeholder="Votre Email *" id="email" name="email" required data-validation-required-message="Merci d'entrer votre email.">
+                                    <input type="email" class="form-control" placeholder="Votre Email *" id="email" name="_replyto" required data-validation-required-message="Merci d'entrer votre email.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="control-group form-group">
