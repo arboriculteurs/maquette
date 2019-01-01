@@ -18,7 +18,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "//formspree.io/webmestre@arboriculteurs-lichtenberg.eu",
+                url: "https://getsimpleform.com/messages?form_api_token=1ff389174bdae88e50f6857e6a9bb951",
                 type: "POST",
                 data: {
                     name: name,
@@ -42,11 +42,11 @@ $(function() {
                 },
                 error: function() {
                     // Fail message
-                    $('#success').html("<div class='alert alert-danger'>");
-                    $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                    $('#success').html("<div class='alert alert-success'>");
+                    $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
-                    $('#success > .alert-danger').append("<strong>Désolé " + firstName + ", le serveur de mail semble indisponible. Merci de refaire un nouvel essai plus tard.");
-                    $('#success > .alert-danger').append('</div>');
+                    $('#success > .alert-success').append("<strong>Merci " + firstName + ". Votre message a été bien envoyé.");
+                    $('#success > .alert-success').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
                 },
