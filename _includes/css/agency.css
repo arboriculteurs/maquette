@@ -702,15 +702,18 @@ section#contact .form-group textarea {
 
 section#contact .form-group input.form-control {
     height: auto;
+    color: #900;
 }
 
 section#contact .form-group textarea.form-control {
     height: 236px;
+    color: #900;
 }
 
 section#contact .form-control:focus {
     border-color: #{{ site.data.template.color.primary }};
     box-shadow: none;
+    
 }
 
 section#contact::-webkit-input-placeholder {

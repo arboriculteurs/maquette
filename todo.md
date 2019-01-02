@@ -27,7 +27,7 @@
 * Corriger couleur police : le jaune est trop peu visible  
 ### Javascript
 * ~~Retirer appel validation par Ajax (FormSpree payant uniquement)~~
-* Insérer validation sans Ajax (peut se faire après le 15/01/19)
+* ~~Insérer validation sans Ajax (peut se faire après le 15/01/19)~~
 ## PIED DE PAGE
 ### Code
 * créer un appel de *pop-up* pour les liens du pied de page
