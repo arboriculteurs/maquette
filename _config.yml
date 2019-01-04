@@ -9,36 +9,33 @@ description: "Le site officiel de l'AALE (Association des Arboriculteurs de Lich
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
+- name: Yves<br />KLEIN
+  pic: Yves_Klein
+  position: Président
+- name: Pauline<br />DURR
+  pic: Pauline_Durr
+  position: Vice-présidente
+- name: Carole<br />FERNBACH
+  pic: Carole_Fernbach
+  position: Trésorière
+- name: Pascal<br />FRIESS
+  pic: Pascal_Friess
+  position: Secrétaire
+- name: Jean-Philippe<br />NIEDERST
+  pic: Jean_Philippe_Niederst
+  position: Assesseur 
+- name: Véronique<br />DURR
+  pic: Veronique_Durr
+  position: Assesseur
+- name: Claude<br />LEININGER
+  pic: Claude_Leininger
+  position: Assesseur
+- name: René<br />ARNOLD
+  pic: Rene_Arnold1
+  position: Assesseur
+- name: Clément<br />JOLIBOIS
+  pic: Clement_Jolibois
+  position: Assesseur
 
 # Postal address (add as many lines as necessary)
 address:
