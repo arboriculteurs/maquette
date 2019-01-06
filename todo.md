@@ -10,6 +10,7 @@
 * Mettre un **texte** dans chacune des brèves
 ### Code
 * ~~Modèle de *posts*  : différencier le lien vers un reportage et le *pop-up* pour une brève~~
+* Modèle de *posts* : revoir mise en page (supprimer *client* - ajouter *lieu* - rectifier alignement des paragraphes)
 * Modèle de *posts* : insérer une galerie dans un *pop-up* (peut se faire après le 15/01/19)
 ## CALENDRIER
 ### Texte 
