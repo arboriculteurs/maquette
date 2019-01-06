@@ -10,7 +10,11 @@
             <div class="row">
             {% for post in site.posts %}
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                        {% if post.reportage %}
+                    <a href="https://www.arboriculteurs-lichtenberg.eu/{{ post.reportage }}" target="_blank" class="portfolio-link" data-toggle="modal">
+                            {% else %}
+                            <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">    
+                        {% endif %}   
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -19,8 +23,12 @@
                         <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>{{ post.title }}</h4>
-                        <p class="text-muted">{{ post.subtitle }}</p>
+                        <h4>{{ post.title }}  
+                            {% if post.reportage %}
+                                <i class="fas fa-external-link-alt"></i>
+                            {% endif %}  
+                        </h4>
+                        <p class="text-muted">{{ post.subtitle }} </p>
                     </div>
                 </div>
             {% endfor %}

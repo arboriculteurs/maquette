@@ -9,7 +9,7 @@
 ### Texte
 * Mettre un **texte** dans chacune des brèves
 ### Code
-* Modèle de *posts*  : différencier le lien vers un reportage et le *pop-up* pour une brève
+* ~~Modèle de *posts*  : différencier le lien vers un reportage et le *pop-up* pour une brève~~
 * Modèle de *posts* : insérer une galerie dans un *pop-up* (peut se faire après le 15/01/19)
 ## CALENDRIER
 ### Texte 
@@ -20,7 +20,7 @@
 ### Texte
 * ~~Valeurs exactes pour les *fun facts*~~
 * ~~Noms et photos des membres du comité~~
-* Mettre en place des portaits carrée de bonne qualité (160x160) (peut se faire après le 15/01/19)
+* ~~Mettre en place des portaits carrée de bonne qualité (160x160) (peut se faire après le 15/01/19)~~
 ## PARTENAIRES
 * Vérification approfondie
 ## CONTACT
