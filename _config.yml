@@ -1,0 +1,47 @@
+url: https://www.arboriculteurs-lichtenberg.eu/maquette
+baseurl: 
+simpleform-token: "https://getsimpleform.com/messages?form_api_token=1ff389174bdae88e50f6857e6a9bb951"
+
+# Site settings
+title: Association des Arboriculteurs de Lichtenberg et Environs
+email: webmestre@arboriculteurs-lichtenberg.eu
+description: "Le site officiel de l'AALE (Association des Arboriculteurs de Lichtenberg et Environs)."
+
+# Team names, titles and social links
+people:
+- name: Yves<br />KLEIN
+  pic: Yves_Klein
+  position: Président
+- name: Pauline<br />DURR
+  pic: Pauline_Durr
+  position: Vice-présidente
+- name: Carole<br />FERNBACH
+  pic: Carole_Fernbach
+  position: Trésorière
+- name: Pascal<br />FRIESS
+  pic: Pascal_Friess
+  position: Secrétaire
+- name: Jean-Philippe<br />NIEDERST
+  pic: Jean_Philippe_Niederst
+  position: Assesseur 
+- name: Véronique<br />DURR
+  pic: Veronique_Durr
+  position: Assesseur
+- name: Claude<br />LEININGER
+  pic: Claude_Leininger
+  position: Assesseur
+- name: René<br />ARNOLD
+  pic: Rene_Arnold1
+  position: Assesseur
+- name: Clément<br />JOLIBOIS
+  pic: Clement_Jolibois
+  position: Assesseur
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
+
+# Build settings
+markdown: kramdown
+permalink: pretty

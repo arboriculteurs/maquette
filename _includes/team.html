@@ -1,0 +1,68 @@
+<!-- Team Section -->
+    <section id="team" class="bg-light-gray">
+        <div class="container">
+                <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <h2 class="section-heading">Quelques détails</h2>
+                            <h3 class="section-subheading text-muted">Des faits et des chiffres pour mieux connaître l'AALE.</h3>
+                        </div>
+                        <div class="stat">
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="milestone-counter">
+                                    <i class="fas fa-users fa-4x"></i>
+                                    <span class="stat-count highlight">88</span>
+                                    <div class="milestone-details">Membres fin 2018</div>
+                                </div>
+                           </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="milestone-counter">
+                                   
+                                    <i class="fas fa-chalkboard-teacher fa-4x"></i>
+                                    <span class="stat-count highlight">11</span>
+                                    <div class="milestone-details">Manifestaions prévues en 2019</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="milestone-counter">
+                                    <i class="fas fa-thumbs-up fa-4x"></i>
+                                    <span class="stat-count highlight">8</span>
+                                    <div class="milestone-details">Années d'existence</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="milestone-counter">
+                                    <i class="fas fa-archive fa-4x"></i>
+                                    <span class="stat-count highlight">30</span>
+                                    <div class="milestone-details">Ruches en activité</div>
+                                </div>
+                            </div>
+                            
+                        </div><!-- stat -->      
+                </div>
+        
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3 >Le comité</h3>
+                    <h3 class="section-subheading text-muted">Neuf membres qui se dévouent pour la vie de l'AALE.</h3>
+                </div>
+        
+            </div>
+            <div class="row">
+                {% for member in site.people %}
+                <div class="col-md-2">
+                    <div class="team-member">
+                        <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
+                        <h4>{{ member.name }}</h4>
+                        <p class="text-muted">{{ member.position }}</p>
+                        
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">Les membres du comité sont élus pour une durée de trois ans lors de l'assemblée générale de l'association.</p>
+                </div>
+            </div>
+        </div>
+    </section>
