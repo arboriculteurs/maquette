@@ -6,5 +6,5 @@ modal-id: 2
 date: 2018-02-09
 thumbnail: distillation-thumbnail.jpg
 alt: Stage de distillation
-reportage: stage-distillation
+reportage: stage_distillation
 ---
