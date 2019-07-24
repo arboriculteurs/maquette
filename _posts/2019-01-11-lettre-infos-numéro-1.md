@@ -6,7 +6,7 @@ date: 2019-01-11 16:21 +0100
 img: lettre_infos.jpg
 thumbnail: lettre_infos-thumbnail.jpg
 alt: image-alt
-modal-id: 7
+modal-id: 2
 doc: AALE-lettre_info_janvier_2019.pdf
 doc-input: "Télécharger le bulletin"
 ---
