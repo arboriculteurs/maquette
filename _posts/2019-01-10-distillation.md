@@ -1,6 +1,6 @@
 ---
 title: Stage de distillation
-subtitle: Un reportage complet
+subtitle: Prochain stage en 2021
 layout: default
 modal-id: 3
 date: 2018-02-09
