@@ -7,7 +7,7 @@ img: lettre_infos.jpg
 thumbnail: lettre_infos-thumbnail.jpg
 alt: image-alt
 modal-id: 2
-doc: AALE-inscription.pdf
+doc: adhesion_AALE.doc
 doc-input: "Bulletin d'inscription à l'AALE"
 ---
 ## Le mot du président ##
