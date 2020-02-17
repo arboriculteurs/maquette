@@ -6,7 +6,7 @@ date: 2019-01-11 16:21 +0100
 img: lettre_infos.jpg
 thumbnail: lettre_infos-thumbnail.jpg
 alt: image-alt
-modal-id: 2
+modal-id: 3
 doc: adhesion_AALE.doc
 doc-input: "Bulletin d'inscription à l'AALE"
 ---
