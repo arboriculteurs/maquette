@@ -1,0 +1,21 @@
+I"�<h2 id="médias">Médias</h2>
+<p>Sauf mention contraire, les photos des activités de l’A.A.L.E. figurant sur ce site sont signées d’Yves Klein.<br />
+Les photos d’illustration sont fournies gracieusement par le site <a href="https://unsplash.com/" target="_blank">Unsplash</a>.<br />
+Les documents sonores sont extraits d’une émission de <a href="https://www.estfm.fr/" target="_blank">ESTFM</a>, enregistrée en janvier 2018.</p>
+
+<h2 id="réalisation-et-hébergement">Réalisation et hébergement</h2>
+<p>Ce site est développé à partir du thème <em>Agency</em>, créé initialement développé par <em>styleshout</em>.  Les reportages utilisent Webslides. <strong>L’ensemble du site est entièrement réalisé avec des logiciels libres et gratuits.</strong></p>
+
+<ul>
+  <li><a href="https://linuxmint.com/" target="_blank">Linux Mint</a> : le système d’exploitation</li>
+  <li><a href="https://jekyllrb.com/" target="_blank">Jekyll</a> : le générateur de site statique</li>
+  <li><a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> : l’éditeur de code pour la création des pages</li>
+  <li><a href="https://git-scm.com/" target="_blank">Git</a> : la gestion du code source</li>
+  <li><a href="https://www.gimp.org/" target="_blank">The Gimp</a> : l’éditeur d’images et <a href="https://www.audacityteam.org/" target="_blank">Audacity</a> : l’éditeur de sons</li>
+</ul>
+
+<p>L’hébergement du site est assuré gratuitement par la plate-forme <a href="https://github.com/" target="_blank">Github</a>.</p>
+
+<p>Pour toute précision complémentaire, vous pouvez vous adresser à notre webmestre, en utilisant le formulaire de contact du site.</p>
+
+:ET
